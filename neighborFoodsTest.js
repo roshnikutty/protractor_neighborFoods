@@ -1,5 +1,5 @@
 describe('registration', function() {
-    it('should visit thinkful and find the log in button', function() {
+    it('should visit neighborfoods and find the log in button', function() {
       browser.waitForAngularEnabled(false);
       browser.get('https://neighborfoods.herokuapp.com/');
       expect(element(by.css('.login')).getText()).toMatch(/Log In/);
